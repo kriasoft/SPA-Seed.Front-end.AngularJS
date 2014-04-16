@@ -1,8 +1,8 @@
-SPA Front-end Starter Kit
-========================
+AngularJS SPA Template
+======================
 
-This project is an application skeleton for a typical single-page application (SPA). You can use it to quickly
-bootstrap your web application projects and dev environment for these projects.
+This project is an application skeleton for a typical single-page application (SPA) based on AngularJS.
+You can use it to quickly bootstrap your web application projects and dev environment for these projects.
 
 ### Components
 
@@ -11,8 +11,8 @@ Below is a list of 3rd party runtime and development time components used in the
 | Runtime components | Development tools    |
 |--------------------|----------------------|
 | HTML5 Boilerplate  | Bower                |
-| jQuery             | Gulp                 |
-|                    | Browserify           |
+| AngularJS          | Gulp                 |
+| jQuery             | Browserify           |
 |                    | Karma                |
 |                    | Protractor           |
 
@@ -26,8 +26,12 @@ Below is a list of 3rd party runtime and development time components used in the
 ├── node_modules
 ├── public
 ├── src
+│   ├── controllers
+│   ├── directives
 │   ├── images
+│   ├── services
 │   ├── styles
+│   ├── views
 │   └── ...
 ├── test
 │   ├── e2e
@@ -40,7 +44,7 @@ Below is a list of 3rd party runtime and development time components used in the
 To get started you can simply clone the repo and install the dependencies:
 
 ```
-> git clonse https://github.com/KriaSoft/SPA-Seed.Frontend MyApp
+> git clonse https://github.com/KriaSoft/SPA-Seed.Frontend.AngularJS MyApp
 > cd MyApp
 > npm install
 > bower install
