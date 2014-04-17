@@ -20,12 +20,12 @@ Below is a list of 3rd party runtime and development time components used in the
 
 ```
 .
-├── bower_components
-├── build
-├── docs
-├── node_modules
-├── public
-├── src
+├── bower_components            # 3rd party libraries used in the app
+├── build                       # A compiled version of the app
+├── docs                        # Documentation files
+├── node_modules                # Node.js dev tools and utilities
+├── public                      # Public / static files: favicon.ico etc.
+├── src                         # The source code of the application
 │   ├── controllers
 │   ├── directives
 │   ├── images
@@ -33,9 +33,9 @@ Below is a list of 3rd party runtime and development time components used in the
 │   ├── styles
 │   ├── views
 │   └── ...
-├── test
-│   ├── e2e
-│   └── unit
+├── test                        # Unit, integration and load tests
+│   ├── e2e                     # End-to-end tests
+│   └── unit                    # Unit tests
 └── ...
 ```
 
@@ -45,9 +45,10 @@ To get started you can simply clone the repo and install the dependencies:
 
 ```
 > git clone https://github.com/KriaSoft/SPA-Seed.Front-end.AngularJS.git MyApp
-> cd MyApp
-> npm install
-> bower install
+> cd MyApp                      # Navigate to the newly created project's directory
+> npm install -g bower gulp     # Install Bower and Gulp globally
+> npm install                   # Install node.js components listed in ./package.json
+> bower install                 # Install 3rd party libraries listed in ./bower.json
 ```
 
 To compile and run the application do:
