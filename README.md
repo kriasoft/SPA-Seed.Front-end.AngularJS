@@ -10,9 +10,8 @@ Below is a list of 3rd party runtime and development time components used in the
 
 | Runtime components | Development tools    |
 |--------------------|----------------------|
-| HTML5 Boilerplate  | Bower                |
-| AngularJS          | Gulp                 |
-| jQuery             | Browserify           |
+| AngularJS          | Browserify           |
+| HTML5 Boilerplate  | Gulp                 |
 |                    | Karma                |
 |                    | Protractor           |
 
@@ -20,7 +19,6 @@ Below is a list of 3rd party runtime and development time components used in the
 
 ```
 .
-├── bower_components            # 3rd party libraries used in the app
 ├── build                       # A compiled version of the app
 ├── docs                        # Documentation files
 ├── node_modules                # Node.js dev tools and utilities
@@ -46,9 +44,8 @@ To get started you can simply clone the repo and install the dependencies:
 ```
 > git clone https://github.com/KriaSoft/SPA-Seed.Front-end.AngularJS.git MyApp
 > cd MyApp                      # Navigate to the newly created project's directory
-> npm install -g bower gulp     # Install Bower and Gulp globally
+> npm install -g gulp           # Install Bower and Gulp globally
 > npm install                   # Install node.js components listed in ./package.json
-> bower install                 # Install 3rd party libraries listed in ./bower.json
 ```
 
 To compile and run the application do:
