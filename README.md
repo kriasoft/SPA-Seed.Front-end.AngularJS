@@ -1,7 +1,6 @@
-AngularJS Front-end Starter Kit
-===============================
+![AngularJS SPA Front-end Starter Kit](http://files.tarkus.me/spa-seed/AngularJS-SPA-Starter-Kit.png)
 
-This project is an application skeleton for a typical single-page application (SPA) based on AngularJS.
+**AngularJS SPA Front-end Starter Kit** is an application skeleton for a typical single-page application (SPA) based on AngularJS.
 You can use it to quickly bootstrap your web application projects and dev environment for these projects.
 
 ### Components
